@@ -83,7 +83,8 @@ print(f"List comprehension: {squares_comp}")
 even_numbers = [num for num in range(1, 21) if num % 2 == 0]
 print(f"Even numbers from 1-20: {even_numbers}")
 ```
-4. Working with JSON Files
+## 4. Working with JSON Files
+
 JSON (JavaScript Object Notation) is the standard format for data exchange on the web. This script shows how to read from and write to a .json file.
 ```python
 import json
@@ -114,7 +115,8 @@ print("\nSuccessfully loaded data from file:")
 print(loaded_data)
 print(f"Username: {loaded_data['username']}")
 ```
-5. Simple Web Scraper
+## 5. Simple Web Scraper
+
 Web scraping is the process of extracting data from websites. This example uses the requests library to get the HTML content of a webpage.
 ```python
 import requests
@@ -139,7 +141,8 @@ try:
 except requests.exceptions.RequestException as e:
     print(f"An error occurred: {e}")
 ```
-6. Command-Line Argument Parser
+## 6. Command-Line Argument Parser
+
 This script shows how to use the argparse module to create a professional command-line tool that accepts arguments, just like git or ls.
 ```python
 import argparse
@@ -164,7 +167,8 @@ for _ in range(args.repeat):
 # python your_script_name.py Alice
 # python your_script_name.py Bob --repeat 5
 ```
-7. Lambda Functions (Anonymous Functions)
+## 7. Lambda Functions (Anonymous Functions)
+
 A lambda function is a small, one-line anonymous function defined with the lambda keyword. They are useful for short, simple operations.
 ```python
 # A normal function definition.
@@ -185,7 +189,8 @@ numbers = [1, 2, 3, 4, 5, 6]
 squared_numbers = list(map(lambda x: x**2, numbers))
 print(f"Squared numbers using map and lambda: {squared_numbers}")
 ```
-8. Simple Decorator
+## 8. Simple Decorator
+
 A decorator is a function that takes another function as an argument, adds some functionality, and returns the modified function. This is an advanced concept.
 ```python
 # This is our decorator. It takes a function `func` as input.
@@ -205,7 +210,8 @@ def say_hello():
 # Now, when we call say_hello, the decorator's wrapper function runs.
 say_hello()
 ```
-9. Working with CSV Files
+## 9. Working with CSV Files
+
 CSV (Comma-Separated Values) is a common format for storing tabular data. Python's csv module makes it easy to work with these files.
 ```python
 import csv
@@ -232,7 +238,8 @@ with open('employees.csv', 'r') as file:
     for row in reader:
         print(', '.join(row))
 ```
-10. Recursion: Factorial Revisited
+## 10. Recursion: Factorial Revisited
+
 Recursion is a technique where a function calls itself to solve a problem. It's an alternative to loops for repetitive tasks and is a fundamental concept in computer science.
 ```python
 # This function calculates factorial using recursion.
