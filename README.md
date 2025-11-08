@@ -4,7 +4,7 @@ This collection moves into professional programming concepts, including Object-O
 ## 1. Basic Object-Oriented Programming (OOP): A Dog Class
 OOP allows us to model real-world things. A class is a blueprint for creating objects. This is a cornerstone of modern software development.
 ```python
-# A class is a blueprint. We define the properties and behaviors of a 'Dog'.
+# A class is a blueprint. We define the properties and behaviors of a 'Dog'. 
 class Dog:
     # The __init__ method is the constructor. It runs when a new Dog object is created.
     # `self` refers to the specific instance of the object being created.
